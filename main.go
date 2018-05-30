@@ -9,6 +9,7 @@ type Customer struct {
 }
 
 func main() {
+
 	customer := Customer{"Savas", "Ozturk"}
 	_ = customer
 
@@ -20,7 +21,4 @@ func main() {
 	if err == nil {
 		fmt.Printf("n:%+v", n)
 	}
-
-	helloWorld("Savas Ozturk")
-
 }

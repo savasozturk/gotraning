@@ -9,7 +9,7 @@ type Customer struct {
 }
 
 func main() {
-
+	helloworld()
 	customer := Customer{"Savas", "Ozturk"}
 	_ = customer
 

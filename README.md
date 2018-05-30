@@ -1,0 +1,2 @@
+# gotraning
+Go training projects

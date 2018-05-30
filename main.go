@@ -20,6 +20,7 @@ func main() {
 	if err == nil {
 		fmt.Printf("n:%+v", n)
 	}
-	helloworld()
+
+	helloWorld("Savas Ozturk")
 
 }

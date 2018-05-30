@@ -11,7 +11,7 @@ type Customer struct {
 func main() {
 
 	customer := Customer{"Savas", "Ozturk"}
-	_ = customer
+	_ = customer //to override warning!
 
 	customer2 := Customer{}
 	customer2.firstName = "Derin"
